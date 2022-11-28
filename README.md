@@ -1,6 +1,6 @@
 **Coursera course: Meta Programming with JavaScript**
 
-[Week 1]:(https://ssoc2iterpo.github.io/coursera_javascript/week1index.html) 
+
 <a href="https://ssoc2iterpo.github.io/coursera_javascript/week1/week1index.html">Week 1</a>
 <br>
 <a href="https://ssoc2iterpo.github.io/coursera_javascript/week2/week2index.html">Week 2</a>
