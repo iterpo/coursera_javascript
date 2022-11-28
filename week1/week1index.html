@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript MyNotes</title>
+    <link rel="stylesheet" href="global.css">
+    <style>
+        div {
+            margin-left: 100px;
+        }
+
+        dl {
+            margin-left: 100px;
+            display: inline;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px double rgb(0, 99, 18);
+            text-align: center;
+
+        }
+
+        a {
+            color: rgb(0, 99, 18);
+            text-decoration: none;
+        }
+
+
+
+        a:hover {
+            color: white;
+        }
+
+        .buttonA {
+            display: inline-block;
+            text-decoration: none;
+            background-color: black;
+            border: 4px outset rgb(0, 99, 18);
+            color: rgb(0, 99, 18);
+            padding: 5px 8px;
+            margin: 5px;
+            margin-left: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title1">My JavaScript Notes</h1>
+    <p>Notes based on a coursera course named Meta: Programming with JavaScript</p>
+
+    <div class=dataTypes>
+        <h3>Data Types:</h3>
+        <dl>
+            <dt><a href="data_types/string.html">String</a></dt>
+            <dd>Single or Double quotes '' ,"" (INF characters)</dd>
+            <dt><a href="data_types/number.html">Number</a></dt>
+            <dd>2<sup>-1074</sup> - 2<sup>1024</sup></dd>
+            <dt><a href="data_types/boolean.html">Boolean</a></dt>
+            <dd>True or False (1 or 0) | code: <code> true or false</code> </dd>
+            <dt><a href="data_types/undefined.html">Undefined</a></dt>
+            <dd>Unassigned value (null = absence of a value)</dd>
+            <dt><a href="data_types/bigint.html">BigInt</a></dt>
+            <dd>1.BigInt is more precise</dd>
+            <dd>2.Always use numbers unless you need to support numbers larger than Number.MAX_SAFE_INTEGER.</dd>
+            <dt><a href="data_types/symbol.html">Symbol</a></dt>
+            <dd>Unique identifier</dd>
+        </dl>
+    </div>
+
+    <div class=operators>
+        <h3>Operators:</h3>
+        <table>
+            <tr>
+                <th>Arithmetic Operators</th>
+            </tr>
+            <tr>
+                <th>Operator</th>
+                <th>Meaning</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>+</td>
+                <td>Addition</td>
+                <td>2 + 3</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>Subtraction</td>
+                <td>2 - 3</td>
+            </tr>
+            <tr>
+                <td>/</td>
+                <td>Division</td>
+                <td>2 / 3</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>Multiplication</td>
+                <td>2 * 3</td>
+            </tr>
+            <tr>
+                <td>**</td>
+                <td>Power</td>
+                <td>2 ** 3</td>
+            </tr>
+            <tr>
+                <td>%</td>
+                <td>Module</td>
+                <td>16 % 8 = 0</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Comparison Operators</th>
+            </tr>
+            <tr>
+                <th>Operator</th>
+                <th>Meaning</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>></td>
+                <td>Greater than</td>
+                <td>2 > 3 </td>
+            </tr>
+            <tr>
+                <td><span>&#60;</span></td>
+                <td>Less than</td>
+                <td>2 <span>&#60;</span> 3 </td>
+            </tr>
+            <tr>
+                <td>==</td>
+                <td>Equal to</td>
+                <td>2 == 3</td>
+            </tr>
+            <tr>
+                <td>!=</td>
+                <td>Not equal to</td>
+                <td>2 != 3</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Logical Operators</th>
+            </tr>
+            <tr>
+                <th>Operator</th>
+                <th>Meaning</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>&& - AND</td>
+                <td>Checks for both conditions to be true</td>
+                <td>(2>3) && (3 == 3) </td>
+            </tr>
+            <tr>
+                <td>|| - OR</td>
+                <td>Checks for at least one condition to be true </td>
+                <td>(2>3) || (3 == 3) </td>
+            </tr>
+            <tr>
+                <td>! - NOT</td>
+                <td>Returns false if the result is true and the reverse</td>
+                <td>!(2==3)</td>
+            </tr>
+            <tr>
+                <td>!=</td>
+                <td>Not equal to</td>
+                <td>!(2>3)td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <a href="code1_week1.html" , class="buttonA">Code 1 Week 1 - NEXT<br></a>
+
+
+</body>
+
+</html>
