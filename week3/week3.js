@@ -81,7 +81,7 @@ print(appple)
 print(apppple == appple)
 
 
-// OOP 
+// OOP
 // Task 1: Code a Person class
 class Person {
     constructor(name = "Tom", age = 20, energy = 100) {
@@ -156,3 +156,50 @@ class Dog extends Animal {
 
 var result = new Dog();
 console.log(result.legs);
+
+
+// Exercise array and object iteration
+// Task 1
+var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake'];
+
+function logDairy() {
+    for (var item of dairy) {
+        console.log(item);
+    }
+}
+
+logDairy();
+
+// Task 2
+const animal = {
+
+    canJump: true
+
+};
+
+const bird = Object.create(animal);
+
+bird.canFly = true;
+
+bird.hasFeathers = true;
+
+function birdCan() {
+    for (var pro of Object.keys(bird)) {
+        console.log(`${pro}: ${bird[pro]}`)
+    }
+}
+
+birdCan();
+
+
+// Task 3
+
+function animalCan() {
+    for (var lele in bird) {
+        console.log(`${lele}: ${bird[lele]}`)
+    }
+}
+
+
+animalCan()
+
