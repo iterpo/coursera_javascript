@@ -1,0 +1,23 @@
+{
+  "name": "coursera_javascript",
+  "version": "1.0.0",
+  "description": "**Coursera course: Meta Programming with JavaScript**",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssoc2iterpo/coursera_javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssoc2iterpo/coursera_javascript/issues"
+  },
+  "homepage": "https://github.com/ssoc2iterpo/coursera_javascript#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
