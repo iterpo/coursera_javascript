@@ -10,6 +10,10 @@ Done
 <br>
 <a href="https://ssoc2iterpo.github.io/coursera_javascript/week4/week4index.html">Week 4</a>
 <br>
+Done
 <a href="https://ssoc2iterpo.github.io/coursera_javascript/week5/week5index.html">Week 5</a>
+Done
+
+
 
 Live Page: https://ssoc2iterpo.github.io/coursera_javascript/
